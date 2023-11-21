@@ -1,0 +1,29 @@
+.section{
+    display:flex;
+  }
+  
+.slider{
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+
+@media (max-width:1100px){
+    .sidebar{
+      display:none;
+    }
+
+    .section{
+      justify-content: center;
+    }
+
+    .slider{
+      margin-left:0px;
+    }
+  }
+
+@media (max-width:600px){
+  .slider{
+    margin-top: 20px;
+  }
+}
+  

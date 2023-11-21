@@ -1,0 +1,8 @@
+.roadmap_parent{
+    height: 20px;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-right: 100px;
+    border : 2px solid black;
+    padding: 4px;
+}
