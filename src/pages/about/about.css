@@ -4,7 +4,7 @@
 
 .main_section{
     display: flex;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     height: 42.5vw;
     align-items: center;
     justify-content: space-between;
@@ -44,7 +44,7 @@
 }
 
 .about_detail{
-    border: 2px solid black;
+    border: 2px solid rgb(0,0,0,0.3);
     width: 240px;
     height: 180px;
     display: flex;

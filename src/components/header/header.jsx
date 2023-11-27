@@ -15,11 +15,13 @@ import { Link,useNavigate } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 
 function Dropdown(){
+
+  const Nav = useNavigate();
   return(
     <div className="prof_dropdown">
       <div className="dropdown_rows">
         <PersonIcon/>
-        <div className="dropdown_text">Manage My Account</div>
+        <div className="dropdown_text" onClick={()=>{Nav('/accounts'); window.scroll(0,0)}}>Manage My Account</div>
       </div>
       <div className="dropdown_rows">
         <LocalMallIcon/>
@@ -103,7 +105,7 @@ export default function Header() {
     // setUnder2('none');
     // setUnder3('none');
     // setUnder4('underline');
-    Navigate("/product");
+    Navigate("/login");
   };
 
   // useEffect(()=>{
@@ -144,7 +146,7 @@ export default function Header() {
               </span>
               </div>
               <FavoriteBorderIcon className="header_icons"/>
-              <ShoppingCartIcon className="header_icons"/>
+              <ShoppingCartIcon className="header_icons" onClick={()=>{Navigate('/cart'); window.scroll(0,0);}}/>
               <AccountCircleIcon className="header_icons" sx={{color: recolor, height: 30, width: 30}} onClick={handleClick}/>
               {/* <div className="menu_icon" style={{color:'black', fontWeight: 'bold', fontSize:'120%'}}>&#9776;</div> */}
             </div>

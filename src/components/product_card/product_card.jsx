@@ -19,7 +19,7 @@ export default function Product_card({image,discount,old_price,new_price,name,ra
             <div className="name" onClick={onSmash}>
                 {name}
             </div>
-            <div className="price" onClick={onSmash}>
+            <div className="abc_price" onClick={onSmash}>
                 ${new_price}<span className="old_price">${old_price}</span>
             </div>
 
