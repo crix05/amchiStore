@@ -1,14 +1,7 @@
-<<<<<<< HEAD
 
 .bg-C {
   background-color: #f0f0f0; 
   height: 60vh;
-=======
-/* Base Styles */
-.bg-C {
-  background-color: #f0f0f0; /* Background color for the page */
-  height: 100vh;
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,40 +11,24 @@
 
 .notFound {
   font-size: 2em;
-<<<<<<< HEAD
   color: #e74c3c; 
   font-weight: bold;
   margin-bottom: 40px;
-=======
-  color: #e74c3c; /* Text color for the "404 Not Found" message */
-  font-weight: bold;
-  margin-bottom: 10px;
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
 }
 
 .Co {
   display: inline-block;
-<<<<<<< HEAD
   margin-right: 20px; 
 }
 
 .Pa {
   margin-top: 10px; 
   color: #888;
-=======
-  margin-right: 20px; /* Margin for better spacing */
-}
-
-.Pa {
-  margin-top: 10px; /* Margin for better spacing */
-  color: #888; /* Text color for the description */
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
 }
 
 /* Responsive Styles */
 @media (max-width: 600px) {
   .notFound {
-<<<<<<< HEAD
     font-size: 1.5em; 
   }
 
@@ -78,33 +55,3 @@
 
 }
 
-=======
-    font-size: 1.5em; /* Adjusted font size for smaller screens */
-  }
-
-  .Co {
-    margin-right: 10px; /* Adjusted margin for better spacing on smaller screens */
-  }
-
-  .Pa {
-    margin-top: 5px; /* Adjusted margin for better spacing on smaller screens */
-  }
-}
-
-/* Navigation Link Styles */
-NavLink {
-  text-decoration: none;
-  color: #fff; /* Text color for the navigation link */
-  background-color: #3498db; /* Background color for the navigation link */
-  padding: 10px 15px; /* Padding for the navigation link */
-  border-radius: 5px; /* Border radius for rounded corners */
-  margin-top: 15px; /* Margin for better spacing */
-  font-weight: bold;
-  transition: background-color 0.3s ease; /* Smooth transition effect */
-
-}
-
-NavLink:hover {
-  background-color: #2980b9; /* Background color on hover */
-}
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7

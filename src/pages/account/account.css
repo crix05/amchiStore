@@ -25,19 +25,15 @@
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
 .acc_sign_up{
-    color:#df5555;
-    font-size: 120%;
-    text-decoration: underline;
+    
 }
 
 .acc_sign_up:hover{
     cursor:pointer;
+    text-decoration: underline;
 }
 
-=======
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
 .account_name{
     color:#df5555;
 }

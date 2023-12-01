@@ -8,18 +8,16 @@ import image5 from "./mastercard.png";
 import image6 from "./Nagad.png";
 import image7 from "./card.png";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Checkout = () => {
+  const Nav = useNavigate();
   return (
     <>
       <Header />
 
       <div className="w-[80vw] min-h-[80vh] py-8 m-auto">
-<<<<<<< HEAD
         {/* <div className="py-4">
-=======
-        <div className="py-4">
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
           <span>
             <Link to="/" className="hover:underline">
               Account
@@ -44,11 +42,7 @@ const Checkout = () => {
             </Link>
           </span>
           {"  "}/<span className="font-semibold">Checkout</span>
-<<<<<<< HEAD
         </div> */}
-=======
-        </div>
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
         <div className="py-8 w-full flex justify-between flex-wrap ">
           <div className="w-1/3 max-md:w-full">
             <h2 className=" text-3xl font-bold pb-8">Billing Details</h2>
@@ -210,7 +204,7 @@ const Checkout = () => {
                 <button className="text-center px-3 py-3 bg-black text-white max-md:w-full">Apply Coupan</button>
               </div>
               <div className="my-8">
-                <button className="w-1/2 p-3  bg-black text-white rounded-sm max-md:w-full max-lg:w-3/4">Place Order</button>
+                <button className="w-1/2 p-3  bg-black text-white rounded-sm max-md:w-full max-lg:w-3/4" onClick={()=>{Nav('/thankyou'); window.scroll(0,0)}}>Place Order</button>
               </div>
             </div>
           </div>

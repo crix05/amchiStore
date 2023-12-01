@@ -181,6 +181,7 @@
 
   .dropdown_rows:hover{
     cursor:pointer;
+    color: #fc5f5f;
   }
   
   .dropdown_container {

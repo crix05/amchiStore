@@ -232,12 +232,12 @@ function Product_options({setCol}){
     
     return(
         <div className='options_parent'>
-        <div className="options_colors"> Colors:
-            <div className="options_col" style={{border:border1,marginLeft: 10}}>
-                <div className="options_col1" onClick={handleClick1}></div>
+        <div className="options_colorsXYZ"> Colors:
+            <div className="options_colXYZ" style={{border:border1,marginLeft: 10}}>
+                <div className="options_colXYZ1" onClick={handleClick1}></div>
             </div>
-            <div className="options_col" style={{border:border2}}>
-                <div className="options_col2" onClick={handleClick2}></div>
+            <div className="options_colXYZ" style={{border:border2}}>
+                <div className="options_colXYZ2" onClick={handleClick2}></div>
             </div>
         </div>
         <div className="options_size"> 
@@ -262,7 +262,9 @@ function Product_options({setCol}){
             </div>
             <div className="options_button">Buy now</div>
             <div className="fav_parent">
+                <div className="fav_inter">
                 <Fav/>
+                </div>
             </div>
         </div>
         </div>

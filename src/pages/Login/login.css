@@ -2,13 +2,8 @@
 .Conta {
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
 
   align-items: center;
-=======
-  align-items: center;
-  margin-top: 80px;
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
 }
 
 .img-Conta {
@@ -24,7 +19,6 @@
 .sml-conta {
   width: 100%;
   max-width: 400px;
-<<<<<<< HEAD
   /* margin-top: 2px; */
   padding: 20px;
   border-radius: 5px;
@@ -38,27 +32,14 @@
   font-size: 30px;
 padding: 15px;
 margin: 10px;
-=======
-  margin-top: 20px;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.first-head {
-  text-align: center;
-  font-size: 30px;
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
 }
 
 .sub-head {
   text-align: center;
   font-size: medium;
-<<<<<<< HEAD
   color: grey;
   font-weight: 10px;
   
-=======
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
 }
 
 
@@ -89,10 +70,7 @@ margin: 10px;
 .ftr {
   display: flex;
   flex-direction: row;
-<<<<<<< HEAD
   justify-content: space-between;
-=======
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
   align-items: center;
   color: red;
 }
@@ -108,10 +86,6 @@ margin: 10px;
     display: flex;
     align-items: center;
     text-align: center;
-<<<<<<< HEAD
-=======
-    margin-top: 40px;
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
   }
 
   .sml-conta {
@@ -121,11 +95,4 @@ margin: 10px;
   .submit-btn {
     width: 100%; 
   }
-<<<<<<< HEAD
-=======
-
-  .img_login{
-    display:none;
-  }
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
 }

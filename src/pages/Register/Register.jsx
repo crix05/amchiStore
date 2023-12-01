@@ -2,11 +2,7 @@ import React, { useState } from "react";
 import image1 from "./image.png";
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
-<<<<<<< HEAD
 // import { GoogleLogin } from "react-google-login";
-=======
-import { GoogleLogin } from "react-google-login";
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
 import { Link } from "react-router-dom";
 
 const Register = () => {
@@ -86,22 +82,14 @@ const Register = () => {
                   Create Account
                 </button>
                 <div className=" w-full my-6 ">
-<<<<<<< HEAD
                   {/* <GoogleLogin
-=======
-                  <GoogleLogin
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
                     className="w-full text-center flex justify-center border border-black"
                     clientId="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"
                     buttonText="Login with Google"
                     onSuccess={responseGoogle}
                     onFailure={responseGoogle}
                     cookiePolicy={"single_host_origin"}
-<<<<<<< HEAD
                   /> */}
-=======
-                  />
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
                 </div>
                 <div className=" w-full flex justify-center">
                   <p className="px-1">Already have account?</p>

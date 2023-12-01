@@ -129,16 +129,16 @@
     gap: 15px;
 }
 
-.options_colors{
+.options_colorsXYZ{
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 115%;
 }
 
-.options_col{
-    height: 15px;
-    width: 15px;
+.options_colXYZ{
+    height: 22px;
+    width: 22px;
     display: grid;
     place-items: center;
     border-radius: 50%;
@@ -146,18 +146,18 @@
     padding: 1.5px;
 }
 
-.options_col:hover{
+.options_colXYZ:hover{
     cursor:pointer;
 }
 
-.options_col1{
+.options_colXYZ1{
     height: 13px;
     width: 13px;
     border-radius: 50%;
     background-color: lightgray;
 }
 
-.options_col2{
+.options_colXYZ2{
     height: 13px;
     width: 13px;
     border-radius: 50%;
@@ -196,14 +196,15 @@
 
 .options_count{
     height: 35px;
-    width: 130px;
+    width: 128px;
     border: 2px solid black;
     border-radius : 5px;
     display: flex;
+    overflow: hidden;
 }
 
 .sign_box{
-    height: 35px;
+    height: 34px;
     width: 35px;
     display: grid;
     place-items: center;
@@ -257,6 +258,10 @@
     margin-left: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.fav_inter{
+    transform: scale(1.5);
 }
 
 

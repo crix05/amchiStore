@@ -15,21 +15,12 @@ import { Link,NavLink,useNavigate } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 
 function Dropdown(){
-<<<<<<< HEAD
   const Nav2 = useNavigate();
-=======
-
-  const Nav = useNavigate();
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
   return(
     <div className="prof_dropdown">
       <div className="dropdown_rows">
         <PersonIcon/>
-<<<<<<< HEAD
         <div className="dropdown_text" onClick={()=>{Nav2('/account'); window.scroll(0,0)}}>Manage My Account</div>
-=======
-        <div className="dropdown_text" onClick={()=>{Nav('/accounts'); window.scroll(0,0)}}>Manage My Account</div>
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
       </div>
       <div className="dropdown_rows">
         <LocalMallIcon/>
@@ -113,11 +104,7 @@ export default function Header() {
     // setUnder2('none');
     // setUnder3('none');
     // setUnder4('underline');
-<<<<<<< HEAD
     Navigate("/register");
-=======
-    Navigate("/login");
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
   };
 
   // useEffect(()=>{
@@ -153,7 +140,6 @@ export default function Header() {
             Contact
           </div>
 
-<<<<<<< HEAD
           <div className="header_nav_content" onClick={handleClick3}>
             About
           </div>
@@ -161,24 +147,6 @@ export default function Header() {
           <div className="header_nav_content" onClick={handleClick4}>
             Sign up
           </div>
-=======
-              <div className="header_nav_content" onClick={handleClick3}  >About</div>     
-   
-              <div className="header_nav_content" onClick={handleClick4}>Sign up</div>
-            </div>
-            <div className="header_other">
-              <div className="search_container">
-              <input className="header_search" placeholder={isMobile ? 'Search' : 'What are you looking for ?'}/>
-              <span className="search_icon_bg">
-                <SearchIcon sx={{color:"grey"}}/>
-              </span>
-              </div>
-              <FavoriteBorderIcon className="header_icons"/>
-              <ShoppingCartIcon className="header_icons" onClick={()=>{Navigate('/cart'); window.scroll(0,0);}}/>
-              <AccountCircleIcon className="header_icons" sx={{color: recolor, height: 30, width: 30}} onClick={handleClick}/>
-              {/* <div className="menu_icon" style={{color:'black', fontWeight: 'bold', fontSize:'120%'}}>&#9776;</div> */}
-            </div>
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
         </div>
         <div className="header_other">
           <div className="search_container">

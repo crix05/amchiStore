@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
@@ -31,25 +30,5 @@ const ErrorPage = () => {
     </>
   );
 };
-=======
-import React from 'react';
-import './errorpage.css';
-import { NavLink } from 'react-router-dom';
-
-const ErrorPage = () => {
-  return (
-    <div className='bg-C'>
-
-    <section className='notFound'>
-        <div className='Co'>
-        404 Not Found
-        </div>
-    </section>
-<p className='Pa'>Your visited page not found. You may go home page.</p>
-      <NavLink>Back to Home Page</NavLink>
-    </div>
-  )
-}
->>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
 
 export default ErrorPage;
