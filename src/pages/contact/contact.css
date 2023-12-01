@@ -106,10 +106,24 @@ textarea {
     }
 
     .prsnl_input{
-        width: 60%;
+        width: 40%;
     }
 
     .send_button{
         height: 120px;
+    }
+
+    .prsnl_info{
+        gap: 15px;
+    }
+}
+
+@media(max-width: 450px){
+    .message_parent{
+        width: 300px;
+    }
+
+    .prsnl_input{
+        width: 60%;
     }
 }

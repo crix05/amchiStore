@@ -57,7 +57,11 @@ const ContextCart = () => {
               Apply Coupon
             </button>
           </div>
+<<<<<<< HEAD
           <div className="rounded-sm w-1/3 max-lg:w-full px-4 Cart_van">
+=======
+          <div className="h-[45vh] border-2 border-neutral-500 rounded-sm w-1/3 max-lg:w-full px-4 py-2">
+>>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
             <h1 className="text-lg font-bold py-4">Card Total</h1>
             <div>
               <div className="py-4 flex w-full justify-between items-center border-b border-b-neutral-200">
@@ -77,7 +81,11 @@ const ContextCart = () => {
               </div>
             </div>
             <div className="w-full flex justify-center mt-4">
+<<<<<<< HEAD
               <button className="text-center cart_check_button">Proceed To Checkout</button>
+=======
+              <button className="text-center w-3/4 text-white bg-black rounded-sm py-2 px-2 max-sm:text-sm">Proceed To Checkout</button>
+>>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
             </div>
           </div>
         </div>

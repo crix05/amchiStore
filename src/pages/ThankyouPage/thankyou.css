@@ -38,7 +38,11 @@
 }
 
 .btn_thankyou:hover{
+<<<<<<< HEAD
  background-color: rgb(96, 168, 99);
+=======
+ background-color: #6ef572;
+>>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
 }
 
 

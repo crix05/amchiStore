@@ -15,7 +15,11 @@ const Checkout = () => {
       <Header />
 
       <div className="w-[80vw] min-h-[80vh] py-8 m-auto">
+<<<<<<< HEAD
         {/* <div className="py-4">
+=======
+        <div className="py-4">
+>>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
           <span>
             <Link to="/" className="hover:underline">
               Account
@@ -40,7 +44,11 @@ const Checkout = () => {
             </Link>
           </span>
           {"  "}/<span className="font-semibold">Checkout</span>
+<<<<<<< HEAD
         </div> */}
+=======
+        </div>
+>>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
         <div className="py-8 w-full flex justify-between flex-wrap ">
           <div className="w-1/3 max-md:w-full">
             <h2 className=" text-3xl font-bold pb-8">Billing Details</h2>

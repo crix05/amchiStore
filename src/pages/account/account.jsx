@@ -2,11 +2,18 @@ import React from 'react';
 import './account.css';
 import Header from '../../components/header/header.jsx';
 import Footer from '../../components/footer/footer.jsx';
+<<<<<<< HEAD
 import { useNavigate } from 'react-router-dom';
 
 
 export default function Account({name}) {
 const Nav = useNavigate();
+=======
+
+
+export default function Account({name}) {
+
+>>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
   return (
     <>
     <Header/>
@@ -29,7 +36,10 @@ const Nav = useNavigate();
             </div>
             <div className="account_sidebar_section">
             <div className="acc_title">My Wishlist</div>
+<<<<<<< HEAD
             <div className="acc_title acc_sign_up" onClick={()=>{Nav('/register'); window.scroll(0,0)}}>Sign up</div>
+=======
+>>>>>>> 0c319a48e9fdf9f4c45dd0556d7598c993c2dfb7
             </div>
           </div>
           <div className="account_edit">
