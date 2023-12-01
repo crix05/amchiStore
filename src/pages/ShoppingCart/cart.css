@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap");
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.Cart_van{
+  position: relative;
+  border: 2px solid black;
+}
+
+.cart_check_button{
+  background-color: black;
+  color: white;
+  width: fit-content;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 25px;
+}
+
+
+

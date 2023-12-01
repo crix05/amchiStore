@@ -1,0 +1,57 @@
+
+.bg-C {
+  background-color: #f0f0f0; 
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.notFound {
+  font-size: 2em;
+  color: #e74c3c; 
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.Co {
+  display: inline-block;
+  margin-right: 20px; 
+}
+
+.Pa {
+  margin-top: 10px; 
+  color: #888;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .notFound {
+    font-size: 1.5em; 
+  }
+
+  .Co {
+    margin-right: 10px; 
+  }
+
+  .Pa {
+    margin-top: 5px; 
+  }
+}
+
+.btn_error-page
+  {
+  text-decoration: none;
+  color: #fff; 
+  margin-bottom: 20px;
+  margin: 30px;
+  background-color: #000000; 
+  padding: 10px 15px; 
+  border-radius: 5px; 
+  font-weight: bold;
+  transition: background-color 0.3s ease; 
+
+}
+

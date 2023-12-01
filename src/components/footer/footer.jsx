@@ -18,7 +18,7 @@ export default function Footer(){
             <div className='footer_logo'></div>
             <div className='footer_title'>Subscribe</div>
             <div className='footer_content'>Get 10% off your first order</div>
-            <div className="input_bar">
+            <div className="footer_input_bar">
             <input type="email" className='footer_email' placeholder='Enter your email'/>
             </div>
         </div>

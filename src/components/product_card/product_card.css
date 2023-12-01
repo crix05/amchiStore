@@ -56,11 +56,12 @@
     place-items: center;
 }
 
-.like{
+.like1{
     position:absolute;
     margin-left:155px;
     margin-top: 8px;
     z-index: 2;
+    transform: scale(1.2);
 }
 
 .rating{
@@ -95,7 +96,7 @@
     padding-left:10px;
 }
 
-.price{
+.abc_price{
     padding-left:10px;
     font-size: 90%;
     font-weight: 600;

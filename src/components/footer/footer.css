@@ -54,16 +54,15 @@ footer{
     background-color: black;
     border: 2px solid white;
     color: white;
-    width: 140px;
+    width: 200px;
     background: url("send3.jpg") no-repeat right;
     background-size: 30px;
+    font-size: 80%;
 }
 
-/* .footer_send_icon{
-    position: absolute;
-    margin-left: 10vw;
-    margin-top: 22.25vh;
-} */
+.footer_send_icon{
+    z-index: 2;
+}
 
 .footer_send_icon:hover{
     cursor:pointer;

@@ -45,6 +45,8 @@
     position:absolute;
     margin-left:155px;
     margin-top: 8px;
+    z-index:2;
+    transform: scale(1.25);
 }
 
 .rating_2{

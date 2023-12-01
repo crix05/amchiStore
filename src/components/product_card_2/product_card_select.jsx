@@ -50,7 +50,9 @@ function Product_card_2({image2,old_price2,new_price2,name2,rate_num2,rating2}){
             <div className="card_frame_2" style={{backgroundImage:`url(${image2})`}}>
                 <div className="image_2"></div>
                 <div className="like_2">
+                    <div className="xyz_2">
                     <Fav2/>
+                    </div>
                 </div>
             </div>
             <div className="name_2">

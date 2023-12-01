@@ -11,15 +11,16 @@ import LocalMallIcon from '@mui/icons-material/LocalMall';
 import CancelIcon from '@mui/icons-material/Cancel';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
 import LogoutIcon from '@mui/icons-material/Logout';
-import { Link,useNavigate } from 'react-router-dom';
+import { Link,NavLink,useNavigate } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 
 function Dropdown(){
+  const Nav2 = useNavigate();
   return(
     <div className="prof_dropdown">
       <div className="dropdown_rows">
         <PersonIcon/>
-        <div className="dropdown_text">Manage My Account</div>
+        <div className="dropdown_text" onClick={()=>{Nav2('/account'); window.scroll(0,0)}}>Manage My Account</div>
       </div>
       <div className="dropdown_rows">
         <LocalMallIcon/>
@@ -103,7 +104,7 @@ export default function Header() {
     // setUnder2('none');
     // setUnder3('none');
     // setUnder4('underline');
-    Navigate("/product");
+    Navigate("/register");
   };
 
   // useEffect(()=>{
@@ -117,41 +118,61 @@ export default function Header() {
   
   return (
     <div className="header_parent">
-        <div className="top_header">
-            <p className="abc">
-            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <span className="shop_now">Shop Now</span>
-            </p>
-            <select className="language">
-                <option className="opt" selected>English</option>
-                <option className="opt">Bengali</option>
-            </select>
-        </div>
-        <div className="main_header">
-            <div className="header_title" onClick={handleClick1}></div>
-            <div className="header_nav">
-              <div className="header_nav_content" onClick={handleClick1}>Home</div>
-              <div className="header_nav_content" onClick={handleClick2}>Contact</div>
+      <div className="top_header">
+        <p className="abc">
+          Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!{" "}
+          <span className="shop_now">Shop Now</span>
+        </p>
+        <select className="language">
+          <option className="opt" selected>
+            English
+          </option>
+          <option className="opt">Bengali</option>
+        </select>
+      </div>
+      <div className="main_header">
+        <div className="header_title" onClick={handleClick1}></div>
+        <div className="header_nav">
+          <div className="header_nav_content" onClick={handleClick1}>
+            Home
+          </div>
+          <div className="header_nav_content" onClick={handleClick2}>
+            Contact
+          </div>
 
-              <div className="header_nav_content" onClick={handleClick3}  >About</div>     
-   
-              <div className="header_nav_content" onClick={handleClick4}>Sign up</div>
-            </div>
-            <div className="header_other">
-              <div className="search_container">
-              <input className="header_search" placeholder={isMobile ? 'Search' : 'What are you looking for ?'}/>
-              <span className="search_icon_bg">
-                <SearchIcon sx={{color:"grey"}}/>
-              </span>
-              </div>
-              <FavoriteBorderIcon className="header_icons"/>
-              <ShoppingCartIcon className="header_icons"/>
-              <AccountCircleIcon className="header_icons" sx={{color: recolor, height: 30, width: 30}} onClick={handleClick}/>
-              {/* <div className="menu_icon" style={{color:'black', fontWeight: 'bold', fontSize:'120%'}}>&#9776;</div> */}
-            </div>
+          <div className="header_nav_content" onClick={handleClick3}>
+            About
+          </div>
+
+          <div className="header_nav_content" onClick={handleClick4}>
+            Sign up
+          </div>
         </div>
-        <div className="dropdown_container" style={{display: dropdown}}>
-        <Dropdown/>
+        <div className="header_other">
+          <div className="search_container">
+            <input
+              className="header_search"
+              placeholder={isMobile ? "Search" : "What are you looking for ?"}
+            />
+            <span className="search_icon_bg">
+              <SearchIcon sx={{ color: "grey" }} />
+            </span>
+          </div>
+          <FavoriteBorderIcon className="header_icons" />
+          <NavLink to="/cart">
+            <ShoppingCartIcon className="header_icons" />
+          </NavLink>
+          <AccountCircleIcon
+            className="header_icons"
+            sx={{ color: recolor, height: 30, width: 30 }}
+            onClick={handleClick}
+          />
+          {/* <div className="menu_icon" style={{color:'black', fontWeight: 'bold', fontSize:'120%'}}>&#9776;</div> */}
         </div>
+      </div>
+      <div className="dropdown_container" style={{ display: dropdown }}>
+        <Dropdown />
+      </div>
     </div>
-  )
+  );
 }
